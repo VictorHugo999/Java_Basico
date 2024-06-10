@@ -1,13 +1,13 @@
+import java.util.Date;
+
 public class Main {
     public static void main(String[] args) {
-        String nome;
-        String sobrenome;
 
-        nome = "Victor";
-        sobrenome = "Silva";
+        int idade = 10;
+        String nome = "Victor";
+        final int cep = 48509000;
+        Date data = new Date();
 
-        String nomeCompleto = nome.concat(" ").concat(sobrenome);
-
-        System.out.println("Olá, meu nome é " + nomeCompleto);
+        System.out.println("Nome: " + nome + "\nidade: " + idade + "\nCEP: " + cep + "\ndata: " + data);
     }
 }
